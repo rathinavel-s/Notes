@@ -64,6 +64,7 @@ function App() {
     setpost(allPosts)
     setPostTitle('')
     setpostBody('')
+    navigate('/')
   }
 
   const handleDelete = (id) => {
